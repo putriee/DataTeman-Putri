@@ -1,11 +1,13 @@
-package com.example.datateman
+package com.example.datatemanputri
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.example.datateman.GitHubFragment
+import com.example.datateman.ProfileFragment
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity) :
-    FragmentStateAdapter(fragmentActivity) {
+        FragmentStateAdapter(fragmentActivity) {
     private val JUMLAH_MENU = 3
 
     override fun createFragment(position: Int): Fragment {

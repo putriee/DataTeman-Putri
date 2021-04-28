@@ -15,7 +15,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1.5dp"
-        android:background="#7fe5f0"/>
+        android:background="#40aed6"/>
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
